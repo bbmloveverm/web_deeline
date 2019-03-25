@@ -28,15 +28,15 @@
     <div class="row">
     <div class="col-md-4"></div>
      <div class="col-md-4">
-<form action="" method="POST">
+<form action="check_login.php" method="POST" name="check_log_in">
   <div class="form-group">
     <h4>Login</h4>
     <label for="exampleInputEmail1">Username</label>
-    <input type="text" class="form-control" id="exampleInputEmail1"  placeholder="Username">
+    <input type="text" class="form-control" id="ch_user_id" name="ch_user_id"  placeholder="Username">
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="password" class="form-control" id="ch_password" name="ch_password" placeholder="Password">
   </div>
   <div class="form-group form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -48,7 +48,9 @@
 </form>
 
     </div>
+
     <div class="col-md-4"></div>
+    
     </div>
 
     </div>
